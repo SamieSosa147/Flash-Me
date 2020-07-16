@@ -1,8 +1,8 @@
 body {
-	background-color: #25949c;
+	background-color: #215380;
 }
 .parent {
-	border-style: dotted;
+	border-style: solid;
 	position: relative;
 	width: 600px;
 	height: 500px;

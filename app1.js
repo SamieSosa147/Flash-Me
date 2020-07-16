@@ -32,7 +32,7 @@ let card6a = document.querySelector('.second6');
 
 function confirmNow(event) {
 	event.preventDefault();
-	if (userInput.value.includes('HTML')) {
+	if (userInput.value.includes('HTML') && userInput.value.includes('1')) {
 		conMess.style.opacity = 1;
 		para1.style.opacity = 0;
 		para2.style.opacity = 1;
@@ -44,7 +44,7 @@ function confirmNow(event) {
 		score += 1;
 		scoreboard.innerText = score;
 	}
-	if (userInput.value.includes('API')) {
+	if (userInput.value.includes('API') && userInput.value.includes('2')) {
 		conMess.style.opacity = 1;
 		card2.style.opacity = 0;
 		card2a.style.opacity = 1;
@@ -56,7 +56,7 @@ function confirmNow(event) {
 		score += 1;
 		scoreboard.innerText = score;
 	}
-	if (userInput.value === 'Python') {
+	if (userInput.value.includes('API') && userInput.value.includes('3')) {
 		conMess.style.opacity = 1;
 		card3.style.opacity = 0;
 		card3a.style.opacity = 1;
@@ -69,7 +69,7 @@ function confirmNow(event) {
 		score += 1;
 		scoreboard.innerText = score;
 	}
-	if (userInput.value.includes('CSS')) {
+	if (userInput.value.includes('API') && userInput.value.includes('4')) {
 		conMess.style.opacity = 1;
 		card4.style.opacity = 0;
 		card4a.style.opacity = 1;
@@ -82,7 +82,7 @@ function confirmNow(event) {
 		score += 1;
 		scoreboard.innerText = score;
 	}
-	if (userInput.value.includes('Javascript')) {
+	if (userInput.value.includes('API') && userInput.value.includes('5')) {
 		conMess.style.opacity = 1;
 		card5.style.opacity = 0;
 		card5a.style.opacity = 1;
@@ -95,7 +95,7 @@ function confirmNow(event) {
 		score += 1;
 		scoreboard.innerText = score;
 	}
-	if (userInput.value.includes('Rasberry-Pi')) {
+	if (userInput.value.includes('API') && userInput.value.includes('6')) {
 		conMess.style.opacity = 1;
 		card6.style.opacity = 0;
 		card6a.style.opacity = 1;
@@ -170,5 +170,3 @@ function div6() {
 }
 const scoreboard = document.querySelector('.score');
 let score = 0;
-// Create my content; I am going to select raspberry pie; html; javascript, css, python; server;
-// if else if;
