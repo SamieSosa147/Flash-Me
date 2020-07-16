@@ -16,7 +16,7 @@ My app is called Trivia-o-Mama. It's a game app for players who want to play fla
 
 **Results View**
 
-![Screen Shot 2020-07-10 at 11 41 19 AM](https://user-images.githubusercontent.com/64925416/87172676-9647cd80-c2a2-11ea-8331-18888cbaa80c.png)
+![Screen Shot 2020-07-16 at 11 23 42 AM](https://user-images.githubusercontent.com/64925416/87690010-e74e3a80-c756-11ea-8c14-ee209a647cdf.png)
 
 ## User Stories
 
@@ -34,3 +34,12 @@ My app is called Trivia-o-Mama. It's a game app for players who want to play fla
 - As a player, I would like a victory animation when I win the game, so that I feel good about my victory!
 - As a player, I would like to hear an audible sound when I mark a game box so that I know my selection worked.
 - As a player I would like to have a wild card in the game that allows any guess.
+
+#### Technology Used
+
+- This application relies heavily on javascript, css and html.
+- As a player I would like to have a wild card in the game that allows any guess.
+
+#### Challenges and Future
+
+- Eventually I am going to create a meme generator hybrid of the game.
