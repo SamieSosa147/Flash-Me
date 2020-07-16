@@ -96,6 +96,66 @@ function confirmNow(event) {
 		userInput.value = '';
 	}
 }
+function div1() {
+	let box1 = document.querySelector('.card1');
+	box1.style.opacity = 0;
+	conMess.style.opacity = 1;
+	if (conMess.style.opacity === 1) {
+		conMess.style.opacity = 0;
+	} else {
+		conMess.style.opacity = 0;
+	}
+}
+function div2() {
+	let box2 = document.querySelector('.card2');
+	box2.style.opacity = 0;
+	conMess.style.opacity = 1;
+	if (conMess.style.opacity === 1) {
+		conMess.style.opacity = 0;
+	} else {
+		conMess.style.opacity = 0;
+	}
+}
+function div3() {
+	let box3 = document.querySelector('.card3');
+	box3.style.opacity = 0;
+	conMess.style.opacity = 1;
+	if (conMess.style.opacity === 1) {
+		conMess.style.opacity = 0;
+	} else {
+		conMess.style.opacity = 0;
+	}
+}
+function div4() {
+	let box4 = document.querySelector('.card4');
+	box4.style.opacity = 0;
+	conMess.style.opacity = 1;
+	if (conMess.style.opacity === 1) {
+		conMess.style.opacity = 0;
+	} else {
+		conMess.style.opacity = 0;
+	}
+}
+function div5() {
+	let box5 = document.querySelector('.card5');
+	box5.style.opacity = 0;
+	conMess.style.opacity = 1;
+	if (conMess.style.opacity === 1) {
+		conMess.style.opacity = 0;
+	} else {
+		conMess.style.opacity = 0;
+	}
+}
+function div6() {
+	let box6 = document.querySelector('.card6');
+	box6.style.opacity = 0;
+	conMess.style.opacity = 1;
+	if (conMess.style.opacity === 1) {
+		conMess.style.opacity = 0;
+	} else {
+		conMess.style.opacity = 0;
+	}
+}
 
 // Create my content; I am going to select raspberry pie; html; javascript, css, python; server;
 // if else if;
