@@ -66,3 +66,12 @@ body {
 .body {
 	background-color: #25949c;
 }
+h3 {
+	opacity: 0;
+}
+.answer {
+	opacity: 0;
+}
+.hint {
+	opacity: 0;
+}
