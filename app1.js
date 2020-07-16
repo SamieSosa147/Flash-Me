@@ -41,6 +41,8 @@ function confirmNow(event) {
 		para2.appendChild(newButton);
 		newButton.addEventListener('click', div1);
 		userInput.value = '';
+		score += 1;
+		scoreboard.innerText = score;
 	}
 	if (userInput.value.includes('API')) {
 		conMess.style.opacity = 1;
@@ -51,6 +53,8 @@ function confirmNow(event) {
 		card2a.appendChild(newButton);
 		newButton.addEventListener('click', div2);
 		userInput.value = '';
+		score += 1;
+		scoreboard.innerText = score;
 	}
 	if (userInput.value === 'Python') {
 		conMess.style.opacity = 1;
@@ -62,6 +66,8 @@ function confirmNow(event) {
 		newButton.addEventListener('click', div3);
 		userInput.value = '';
 		userInput.value = '';
+		score += 1;
+		scoreboard.innerText = score;
 	}
 	if (userInput.value.includes('CSS')) {
 		conMess.style.opacity = 1;
@@ -73,6 +79,8 @@ function confirmNow(event) {
 		newButton.addEventListener('click', div4);
 		userInput.value = '';
 		userInput.value = '';
+		score += 1;
+		scoreboard.innerText = score;
 	}
 	if (userInput.value.includes('Javascript')) {
 		conMess.style.opacity = 1;
@@ -84,6 +92,8 @@ function confirmNow(event) {
 		newButton.addEventListener('click', div5);
 		userInput.value = '';
 		userInput.value = '';
+		score += 1;
+		scoreboard.innerText = score;
 	}
 	if (userInput.value.includes('Rasberry-Pi')) {
 		conMess.style.opacity = 1;
@@ -94,6 +104,8 @@ function confirmNow(event) {
 		card6a.appendChild(newButton);
 		newButton.addEventListener('click', div6);
 		userInput.value = '';
+		score += 1;
+		scoreboard.innerText = score;
 	}
 }
 function div1() {
@@ -156,6 +168,7 @@ function div6() {
 		conMess.style.opacity = 0;
 	}
 }
-
+const scoreboard = document.querySelector('.score');
+let score = 0;
 // Create my content; I am going to select raspberry pie; html; javascript, css, python; server;
 // if else if;
